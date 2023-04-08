@@ -1,0 +1,23 @@
+{
+  "name": "entregable1back2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entregable1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabuile/backend39755.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabuile/backend39755/issues"
+  },
+  "homepage": "https://github.com/jabuile/backend39755#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

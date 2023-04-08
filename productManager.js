@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 class ProductManager {
   #products;
   constructor() {
@@ -67,3 +69,5 @@ product1.addProduct("herramienta", "fmafrtffffillo", 30, "r", 10, 9);
 console.log(product1.getproducts());
 console.log(product1.getProductById(1))
 //console.log(product1.products);
+
+module.exports = ProductManager;
