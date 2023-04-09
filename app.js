@@ -13,8 +13,8 @@ const product1 = new ProductManager();
 // })
 
 app.get('/', (req, res) => {
-    const products = this.products.getProducts();
-    res.end(console.log("kjhgkjn"))
+    // const products = this.products.getProducts();
+    res.json(product1.getProductById(2));
 });
 
 // app.get('/products/:id', (req, res) => {
