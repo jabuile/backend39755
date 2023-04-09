@@ -1,9 +1,10 @@
-const fs = require('fs');
+//const fs = require('fs');
 
 class ProductManager {
   #products;
   constructor() {
     this.#products = [];
+    
   }
 
   getproducts = () => {
