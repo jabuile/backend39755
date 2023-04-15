@@ -14,7 +14,7 @@ const product1 = new ProductManager();
 
 app.get('/', (req, res) => {
     // const products = this.products.getProducts();
-    res.json(product1.getProductById(2));
+    res.json(product1);
 });
 
 // app.get('/products/:id', (req, res) => {
@@ -28,4 +28,4 @@ app.get('/', (req, res) => {
 // });
 
 
-app.listen(port,()=> console.log("server up en http://locallhost:${port}"));
+app.listen(port,()=> console.log("server up en http://locallhost:" + port));
